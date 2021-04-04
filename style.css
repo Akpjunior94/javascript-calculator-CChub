@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+  
+}
+
+body {
+  background-image: url(../images/bg.png);
+  background-size: contain;
+}
+
+.container {
+ padding: 15px;
+
+}
+
+.main-content {
+ display: flex;
+ width: 70%;
+ align-items: center;
+ flex-direction: column;
+ margin: auto;
+ height: 100%;
+ justify-content: space-around;
+ /* border:solid 2px blue; */
+}
+
+.calculator {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.cal-screen {
+  display: flex;
+  height: 140px;
+  flex-direction: column;
+  padding: 30px 10px;
+  align-items: flex-end;
+  border: 1px solid rgba(195, 35, 35, 0.3);
+  border-radius: 20px;
+  margin-bottom: 10px;
+  /* width: 260px; */
+}
+
+.logic-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 5px;
+  grid-gap: 10px;
+}
+
+button {
+  padding: 15px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.history-value {
+  font-size: 20px;
+  font-weight: 500;
+  color: #a19e9e;
+}
+
+.output-value {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: 500;
+  color: #EDB5B5;
+  text-align: center;
+  /* margin-top: 100px; */
+}
+
+button:nth-child(1), button:nth-child(2),button:nth-child(3),button:nth-child(4),button:nth-child(8),button:nth-child(12),button:nth-child(16){
+	font-size: 20px;
+	background-color: #EDB5B5;
+}
+
+button:nth-child(1):hover, button:nth-child(2):hover,button:nth-child(3):hover,button:nth-child(4):hover,button:nth-child(8):hover,button:nth-child(12):hover,button:nth-child(16):hover{
+	font-size: 20px;
+	background-color: #e29f9f;
+}
+
+
+button:nth-child(5),button:nth-child(6),button:nth-child(7),button:nth-child(9),button:nth-child(10),button:nth-child(11),button:nth-child(13),button:nth-child(14),button:nth-child(15),button:nth-child(17),button:nth-child(18){
+	font-size: 20px;
+	background-color: #C4C4C4;
+}
+
+button:nth-child(5):hover,button:nth-child(6):hover,button:nth-child(7):hover,button:nth-child(9):hover,button:nth-child(10):hover,button:nth-child(11):hover,button:nth-child(13):hover,button:nth-child(14):hover,button:nth-child(15):hover,button:nth-child(17):hover,button:nth-child(18):hover{
+	background-color: #a19e9e;
+}
+
+button:nth-child(19) {
+  background-color: #E35757;
+  grid-column: span 2;
+}
+
+button:nth-child(19):hover {
+  background-color: #df3030;
+}
