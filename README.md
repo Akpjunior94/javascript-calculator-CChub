@@ -10,4 +10,4 @@
 
 You can **clear** all inputed values and also **Delete** a particular value incase of mistake
 
-You can also view the live demo [Here!](google.com)
+You can also view the live demo [Here!](https://akpjunior94.github.io/javascript-calculator-CChub/)
